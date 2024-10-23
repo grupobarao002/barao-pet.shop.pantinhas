@@ -173,4 +173,7 @@ button:hover {
     opacity: 0.9;
 }
 
-
+/* roda pe */
+.div-rodape{
+    display: flex;
+}
