@@ -9,7 +9,10 @@ const estoqueProdutos = {
     3: 2, // Produto 3
     4: 6,
     5: 8,
-    6: 1
+    6: 1,
+    7: 30,
+    8: 10,
+    9: 20
 };
 
 // Função para salvar o carrinho no localStorage
