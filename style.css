@@ -174,10 +174,4 @@ button:hover {
 }
 
 /* roda pe */
-.div-rodape{
-    display: flex;
-}
 
-.div-rodape div{
-    display: inline-block;
-}
