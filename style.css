@@ -8,7 +8,7 @@ body {
 
 /* Barra de Navegação */
 nav {
-    background-color: #333;
+    background-color: #882186
     color: white;
     padding: 10px;
     text-align: center;
@@ -103,7 +103,7 @@ nav ul li a:hover {
 }
 
 .produto button {
-    background-color: #882186;
+    background-color: #882186
     color: white;
     padding: 10px;
     border: none;
