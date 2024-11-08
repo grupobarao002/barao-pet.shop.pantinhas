@@ -39,7 +39,10 @@ nav ul li a:hover {
 
 /* Tela Inicial */
 .hero {
-    background-color: #882186;
+    /* background-color: #882186; */
+    background-image: url("https://www.pontoxtecidos.com.br/static/567/sku/tricoline-estampada-100-algodao-animais-patinhas-patinha-ossinho-fundo-branco--p-1629918255337.jpg");
+    background-image: cover;
+     
     color: white;
     text-align: center;
     padding: 100px 20px;
