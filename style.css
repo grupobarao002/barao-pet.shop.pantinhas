@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
+    background-image: url("https://www.pontoxtecidos.com.br/static/567/sku/tricoline-estampada-100-algodao-animais-patinhas-patinha-ossinho-fundo-branco--p-1629918255337.jpg");
+    background-image: cover;
+     
 
 }
 
