@@ -124,16 +124,21 @@ function atualizarCarrinho() {
 // Função para finalizar a compra
 function finalizarCompra() {
     if (carrinho.length === 0) {
-        alert('Seu carrinho está vazio!');
-        return;
+      alert('Seu carrinho está vazio!');
+      return;
     }
-    
-    alert('Compra finalizada! Obrigado pela preferência.');
+  
+    const modal = new bootstrap.Modal(
+      document.getElementById('ExemploModalCentralizado'),
+    );
+    modal.show();
+  
+    // alert('Compra finalizada! Obrigado pela preferência.');
     carrinho = [];
     total = 0;
     salvarCarrinho();
     atualizarCarrinho();
-}
+  }
 
 // Função para remover todos os itens do carrinho
 function removerTodosItens() {
@@ -170,6 +175,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Ouvinte para o evento de fechamento do modal
-const loginModal = document.getElementById('loginModal');
-loginModal.addEventListener('hidden.bs.modal', limparFormularioLogin);
