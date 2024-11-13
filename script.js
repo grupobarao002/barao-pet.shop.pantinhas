@@ -169,3 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         atualizarEstoque(produtoId);
     }
 });
+
+// Ouvinte para o evento de fechamento do modal
+const loginModal = document.getElementById('loginModal');
+loginModal.addEventListener('hidden.bs.modal', limparFormularioLogin);
